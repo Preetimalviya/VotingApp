@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".VotingActivity">
+
+    <RadioGroup
+        android:id="@+id/candidateRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+        <RadioButton
+            android:id="@+id/candidate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Candidate 1" />
+
+        <RadioButton
+            android:id="@+id/candidate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Candidate 2" />
+
+        <RadioButton
+            android:id="@+id/candidate3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Candidate 3" />
+
+        <RadioButton
+            android:id="@+id/candidate4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Candidate 4" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitVoteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOTE"
+        android:textColor="@color/black"
+    android:backgroundTint="@color/white"
+        android:layout_below="@id/candidateRadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/submitVoteButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>

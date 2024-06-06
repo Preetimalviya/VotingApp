@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".Admin">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvCandidate1Votes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANDIDATE 1 Vote Count" />
+
+        <TextView
+            android:id="@+id/tvCandidate2Votes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANDIDATE 2 Vote Count" />
+
+        <TextView
+            android:id="@+id/tvCandidate3Votes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANDIDATE 3 Vote Count" />
+
+        <TextView
+            android:id="@+id/tvCandidate4Votes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANDIDATE 4 Vote Count" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Logout" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
